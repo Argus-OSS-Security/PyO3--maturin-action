@@ -1,11 +1,12 @@
 name: Update Versions Manifest
 
-on:
-  workflow_dispatch:
-  schedule:
-    # Run every day at 1:00
-    - cron: '0 1 * * *'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     # Run every day at 1:00
+#     - cron: '0 1 * * *'
+# 
 permissions: {}
 
 jobs:
